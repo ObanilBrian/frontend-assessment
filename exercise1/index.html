@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercise 1</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+  <section>
+    <figure class="hero">
+      <img
+        class="hero__img"
+        srcset="./assets/1920x650.png 1920w,
+                ./assets/600x600.png 600w"
+        sizes="(max-width: 600px) 600px,
+            1920px"
+        src="./assets/1920x650.png"
+        alt="Hero Image"
+      >
+      <figcaption class="caption">
+        <h1 class="caption__header">Hello Developer!</h1>
+        <p class="caption__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+      </figcaption>
+    </figure>
+  </section>
+
+  <section class="container">
+    <figure class="card">
+      <img
+        class="card__img"
+        src="./assets/400x300.png"
+        alt="Card Image"
+      >
+      <figcaption class="card__caption">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidedunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      </figcaption>
+      <a href="#" class="card__cta">Read More</a>
+    </figure>
+    <figure class="card">
+      <img
+        class="card__img"
+        src="./assets/400x300.png"
+        alt="Card Image"
+      >
+      <figcaption class="card__caption">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidedunt ut labore et dolore magna aliqua.
+      </figcaption>
+      <a href="#" class="card__cta">Read More</a>
+    </figure>
+    <figure class="card">
+      <img
+        class="card__img"
+        src="./assets/400x300.png"
+        alt="Card Image"
+      >
+      <figcaption class="card__caption">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidedunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+      </figcaption>
+      <a href="#" class="card__cta">Read More</a>
+    </figure>
+  </section>
+</body>
+</html>
