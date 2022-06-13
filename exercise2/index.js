@@ -115,7 +115,9 @@ function App({ data }) {
   return <Tabs data={data} />;
 }
 
-fetch("./assets/data.json")
+fetch("./assets/data.json", {
+  mode: "no-cors",
+})
   .then((resp) => resp.json())
   .then((data) => {
     const domContainer = document.querySelector("#root");
