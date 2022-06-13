@@ -13,4 +13,4 @@
 
 ## Why the result of ('b' + 'a' + + 'a' + 'a').toLowerCase() is banana?
 
-In javascript, the letters enclosed in a single quote(') are considered a string. When the plus(+) sign is used on a string, the expression will be concatenated and will result to a new string. Meanwhile, the empty space between the plus(+) sign will be considered as NaN because by default, the plus(+) sign is used for arithmetic expressions. Lastly, the `.toLowerCase()` transforms the whole string to small letters making the result 'banana'.
+In javascript, the letters enclosed in a single quote(') are considered a string. When the plus(+) sign is used on a string, the expression will be concatenated and will result in a new string. Meanwhile, the empty space between the plus(+) sign will be considered as NaN because by default, the plus(+) sign is used for arithmetic expressions. Lastly, the `.toLowerCase()` transforms the whole string into small letters which makes the result 'banana'.
